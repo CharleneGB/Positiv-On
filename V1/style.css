@@ -2,15 +2,18 @@
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: system-ui;
 }
 
 body{
-  background-color: #f0f0f0;
+  background-image: linear-gradient(to right top, #b3ceff, #9cd5ff, #87dbfe, #79e0f5, #76e4e6, #77e9db, #82eecd, #93f1bd, #a5f7ad, #bdfb9c, #dafe8a, #f9ff7a);
+  height: 100vh;
 }
 header{
  text-align: center;
   justify-content: center;
+  margin-top: 10px;
+  color: ;
 }
 .card-container{
   display: flex;
@@ -48,7 +51,7 @@ header{
 }
 button{
   padding: 8px 16px ;
-  background-color: #333;
+  background-color: #5dade2 ;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
